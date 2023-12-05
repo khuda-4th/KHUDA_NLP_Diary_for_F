@@ -18,5 +18,6 @@
 - requires GPU for optimal inference speed (Fine-Tuning was done using 2 RTX3090 GPUs each running different fine-tuning instances.)
 
 ## Fine-Tuning
+- Provided **Input Sentence + Emotion Label** and Fine-Tuned the model to generate appropriate Response sentence.
 - run by running bash command: **[CUDA_INVISIBLE_DEVICES=0 nohup python koGPT2_v4_finetuning_all.py &]**
   - to test the results, run by running bash command: **[CUDA_INVISIBLE_DEVICES=0 python koGPT2_v4_run_all.py]**

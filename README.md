@@ -29,7 +29,7 @@ Friday는 감정형(F)을 위한 Diary입니다.
 <br></br>
 
 # 3. 서비스 아키텍쳐
-
+![제목을 입력해주세요_-001](https://github.com/wjcldply/friday/assets/76810149/21e93ea6-ae32-4c8b-bfea-30ddf73b7f27)
 
 # Sources
 - [Songys - Chatbot Data](https://github.com/songys/Chatbot_data)

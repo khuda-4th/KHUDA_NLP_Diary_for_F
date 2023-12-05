@@ -15,4 +15,4 @@
 
 ## Fine-Tuning
 - A layer for 15 emotion classifications is added on top of the pre-trained BERT base_v1 model, utilizing resources such as Wikipedia for pre-trained.
-  - Using a dataset labeled with 15 emotions, the **'''num_classes'''** parameter within the BERTClassifier class is modified to 15.
+  - Using a dataset labeled with 15 emotions, the **```num_classes```** parameter within the BERTClassifier class is modified to 15.

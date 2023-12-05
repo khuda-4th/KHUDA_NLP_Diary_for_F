@@ -1,5 +1,7 @@
 # Friday
-<img width="60%" src="https://github.com/wjcldply/friday/assets/58078984/745d13d7-f8ee-4393-ba30-ee5c32a61b43"/>
+<div style="text-align: center;">
+  <img width="60%" src="https://github.com/wjcldply/friday/assets/58078984/745d13d7-f8ee-4393-ba30-ee5c32a61b43"/>
+</div>
 
 # Sources
 - [Songys - Chatbot Data](https://github.com/songys/Chatbot_data)

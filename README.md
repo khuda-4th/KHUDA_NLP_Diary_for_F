@@ -1,5 +1,5 @@
 # Friday
-![friday logo](https://github.com/wjcldply/friday/assets/58078984/745d13d7-f8ee-4393-ba30-ee5c32a61b43)
+<img width="80%" src="https://github.com/wjcldply/friday/assets/58078984/745d13d7-f8ee-4393-ba30-ee5c32a61b43"/>
 
 # Sources
 - [Songys - Chatbot Data](https://github.com/songys/Chatbot_data)

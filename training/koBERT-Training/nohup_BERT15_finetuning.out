@@ -1,0 +1,408 @@
+nohup: ignoring input
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization. 
+The tokenizer class you load from this checkpoint is 'XLNetTokenizer'. 
+The class this function is called from is 'KoBERTTokenizer'.
+/opt/conda/lib/python3.9/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+GPU is available
+  0%|          | 0/20 [00:00<?, ?it/s]epoch 1 | Batch ID 1 | Loss 2.818777322769165 | Train Accuracy 0.078125
+epoch 1 | Batch ID 201 | Loss 2.6446709632873535 | Train Accuracy 0.10230099502487562
+epoch 1 | Batch ID 401 | Loss 2.5583040714263916 | Train Accuracy 0.14631390274314215
+epoch 1 | Batch ID 601 | Loss 2.223606586456299 | Train Accuracy 0.1748128119800333
+epoch 1 | Batch ID 801 | Loss 2.3146004676818848 | Train Accuracy 0.19984784644194756
+epoch 1 | Batch ID 1001 | Loss 0.23106081783771515 | Train Accuracy 0.309862012987013
+epoch 1 | Train Accuracy 0.35610671655930276
+epoch 1 | Test Accuracy 0.2789713541666667
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:1 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(분노한)
+epoch:1 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:1 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:1 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:1 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(슬픈)
+epoch:1 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:1 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:1 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+  5%|▌         | 1/20 [02:59<56:53, 179.66s/it]epoch:1 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 2 | Batch ID 1 | Loss 2.303544044494629 | Train Accuracy 0.40625
+epoch 2 | Batch ID 201 | Loss 1.587938666343689 | Train Accuracy 0.41845460199004975
+epoch 2 | Batch ID 401 | Loss 3.0616936683654785 | Train Accuracy 0.44408509975062344
+epoch 2 | Batch ID 601 | Loss 2.087818145751953 | Train Accuracy 0.4449615224625624
+epoch 2 | Batch ID 801 | Loss 1.7858961820602417 | Train Accuracy 0.4328183520599251
+epoch 2 | Batch ID 1001 | Loss 0.03403937444090843 | Train Accuracy 0.5203702547452548
+epoch 2 | Train Accuracy 0.5522249392130858
+epoch 2 | Test Accuracy 0.3063151041666667
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:2 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(분노한)
+epoch:2 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:2 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(분노한)
+epoch:2 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:2 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(슬픈)
+epoch:2 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:2 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:2 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 10%|█         | 2/20 [05:59<53:57, 179.88s/it]epoch:2 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 3 | Batch ID 1 | Loss 2.3028054237365723 | Train Accuracy 0.5
+epoch 3 | Batch ID 201 | Loss 1.583186388015747 | Train Accuracy 0.5242537313432836
+epoch 3 | Batch ID 401 | Loss 3.443939447402954 | Train Accuracy 0.5260676433915212
+epoch 3 | Batch ID 601 | Loss 1.8778324127197266 | Train Accuracy 0.5170029118136439
+epoch 3 | Batch ID 801 | Loss 1.6505751609802246 | Train Accuracy 0.4966838327091136
+epoch 3 | Batch ID 1001 | Loss 0.01805398240685463 | Train Accuracy 0.5771884365634365
+epoch 3 | Train Accuracy 0.6063785801124163
+epoch 3 | Test Accuracy 0.3572591145833333
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:3 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(당황한)
+epoch:3 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:3 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(당황한)
+epoch:3 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:3 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(분노한)
+epoch:3 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:3 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:3 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 15%|█▌        | 3/20 [08:57<50:38, 178.74s/it]epoch:3 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 4 | Batch ID 1 | Loss 1.890763759613037 | Train Accuracy 0.59375
+epoch 4 | Batch ID 201 | Loss 1.343929409980774 | Train Accuracy 0.5676305970149254
+epoch 4 | Batch ID 401 | Loss 3.6070990562438965 | Train Accuracy 0.5691630299251871
+epoch 4 | Batch ID 601 | Loss 1.7480723857879639 | Train Accuracy 0.5600821547420965
+epoch 4 | Batch ID 801 | Loss 1.637303352355957 | Train Accuracy 0.5374336766541823
+epoch 4 | Batch ID 1001 | Loss 0.03452995419502258 | Train Accuracy 0.6132773476523476
+epoch 4 | Train Accuracy 0.6406777938297334
+epoch 4 | Test Accuracy 0.34912109375
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:4 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(당황한)
+epoch:4 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:4 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:4 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(슬픈)
+epoch:4 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(분노한)
+epoch:4 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:4 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:4 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 20%|██        | 4/20 [11:53<47:27, 177.97s/it]epoch:4 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 5 | Batch ID 1 | Loss 1.8714865446090698 | Train Accuracy 0.625
+epoch 5 | Batch ID 201 | Loss 1.3120077848434448 | Train Accuracy 0.6129508706467661
+epoch 5 | Batch ID 401 | Loss 3.7438690662384033 | Train Accuracy 0.609959476309227
+epoch 5 | Batch ID 601 | Loss 1.5596305131912231 | Train Accuracy 0.6054492512479202
+epoch 5 | Batch ID 801 | Loss 1.447993516921997 | Train Accuracy 0.5843086766541823
+epoch 5 | Batch ID 1001 | Loss 0.005946757737547159 | Train Accuracy 0.6541583416583416
+epoch 5 | Train Accuracy 0.6793697502210433
+epoch 5 | Test Accuracy 0.39801432291666666
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:5 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(당황한)
+epoch:5 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:5 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:5 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(슬픈)
+epoch:5 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(분노한)
+epoch:5 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:5 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:5 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 25%|██▌       | 5/20 [14:51<44:26, 177.77s/it]epoch:5 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 6 | Batch ID 1 | Loss 1.575488805770874 | Train Accuracy 0.65625
+epoch 6 | Batch ID 201 | Loss 1.101248025894165 | Train Accuracy 0.6588930348258707
+epoch 6 | Batch ID 401 | Loss 3.793388843536377 | Train Accuracy 0.6542627805486284
+epoch 6 | Batch ID 601 | Loss 1.5020190477371216 | Train Accuracy 0.6517002911813644
+epoch 6 | Batch ID 801 | Loss 1.2235127687454224 | Train Accuracy 0.6315738139825219
+epoch 6 | Batch ID 1001 | Loss 0.003807657863944769 | Train Accuracy 0.6946334915084915
+epoch 6 | Train Accuracy 0.7166866000378931
+epoch 6 | Test Accuracy 0.41240234375
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:6 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(슬픈)
+epoch:6 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:6 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:6 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:6 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(불안한)
+epoch:6 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:6 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:6 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 30%|███       | 6/20 [17:48<41:26, 177.63s/it]epoch:6 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 7 | Batch ID 1 | Loss 1.4549940824508667 | Train Accuracy 0.71875
+epoch 7 | Batch ID 201 | Loss 0.8966511487960815 | Train Accuracy 0.7082555970149254
+epoch 7 | Batch ID 401 | Loss 3.57746958732605 | Train Accuracy 0.7020729426433915
+epoch 7 | Batch ID 601 | Loss 1.3510545492172241 | Train Accuracy 0.70068115640599
+epoch 7 | Batch ID 801 | Loss 1.1167410612106323 | Train Accuracy 0.6821551186017478
+epoch 7 | Batch ID 1001 | Loss 0.0029982770793139935 | Train Accuracy 0.7374344405594405
+epoch 7 | Train Accuracy 0.7565819597069597
+epoch 7 | Test Accuracy 0.42815755208333334
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:7 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(당황한)
+epoch:7 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:7 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:7 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:7 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(분노한)
+epoch:7 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:7 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:7 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 35%|███▌      | 7/20 [20:45<38:24, 177.28s/it]epoch:7 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 8 | Batch ID 1 | Loss 1.3304193019866943 | Train Accuracy 0.6875
+epoch 8 | Batch ID 201 | Loss 0.7118026614189148 | Train Accuracy 0.7345304726368159
+epoch 8 | Batch ID 401 | Loss 3.8586008548736572 | Train Accuracy 0.7388949501246883
+epoch 8 | Batch ID 601 | Loss 1.0230799913406372 | Train Accuracy 0.7392886855241264
+epoch 8 | Batch ID 801 | Loss 0.987096905708313 | Train Accuracy 0.7234706616729089
+epoch 8 | Batch ID 1001 | Loss 0.0019505016971379519 | Train Accuracy 0.7710882867132867
+epoch 8 | Train Accuracy 0.7877747252747253
+epoch 8 | Test Accuracy 0.46669921875000003
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:8 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(슬픈)
+epoch:8 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:8 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:8 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:8 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(분노한)
+epoch:8 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:8 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:8 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 40%|████      | 8/20 [23:42<35:28, 177.34s/it]epoch:8 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 9 | Batch ID 1 | Loss 0.9930047392845154 | Train Accuracy 0.8125
+epoch 9 | Batch ID 201 | Loss 0.6701231598854065 | Train Accuracy 0.7763526119402985
+epoch 9 | Batch ID 401 | Loss 3.6590771675109863 | Train Accuracy 0.7789900249376559
+epoch 9 | Batch ID 601 | Loss 1.0191669464111328 | Train Accuracy 0.7776102329450915
+epoch 9 | Batch ID 801 | Loss 0.7430112361907959 | Train Accuracy 0.7635767790262172
+epoch 9 | Batch ID 1001 | Loss 0.0015216158935800195 | Train Accuracy 0.8050855394605395
+epoch 9 | Train Accuracy 0.8193681318681318
+epoch 9 | Test Accuracy 0.49746093750000003
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:9 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(슬픈)
+epoch:9 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:9 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:9 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:9 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(분노한)
+epoch:9 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:9 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:9 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 45%|████▌     | 9/20 [26:39<32:28, 177.17s/it]epoch:9 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 10 | Batch ID 1 | Loss 1.1711078882217407 | Train Accuracy 0.765625
+epoch 10 | Batch ID 201 | Loss 0.5062754154205322 | Train Accuracy 0.8000621890547264
+epoch 10 | Batch ID 401 | Loss 3.966841697692871 | Train Accuracy 0.8068110972568578
+epoch 10 | Batch ID 601 | Loss 0.7168620228767395 | Train Accuracy 0.8079502911813644
+epoch 10 | Batch ID 801 | Loss 0.5017986297607422 | Train Accuracy 0.7947487515605494
+epoch 10 | Batch ID 1001 | Loss 0.0011657857103273273 | Train Accuracy 0.8305912837162838
+epoch 10 | Train Accuracy 0.8429630265567766
+epoch 10 | Test Accuracy 0.5232096354166667
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:10 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(슬픈)
+epoch:10 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:10 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:10 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:10 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(분노한)
+epoch:10 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:10 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(분노한)
+epoch:10 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 50%|█████     | 10/20 [29:36<29:31, 177.19s/it]epoch:10 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 11 | Batch ID 1 | Loss 1.0116839408874512 | Train Accuracy 0.8125
+epoch 11 | Batch ID 201 | Loss 0.4672662615776062 | Train Accuracy 0.8216728855721394
+epoch 11 | Batch ID 401 | Loss 3.712430238723755 | Train Accuracy 0.8336970074812967
+epoch 11 | Batch ID 601 | Loss 0.6497700810432434 | Train Accuracy 0.8329346921797005
+epoch 11 | Batch ID 801 | Loss 0.5192838311195374 | Train Accuracy 0.8227606117353309
+epoch 11 | Batch ID 1001 | Loss 0.0016639346722513437 | Train Accuracy 0.85374000999001
+epoch 11 | Train Accuracy 0.8644545558608059
+epoch 11 | Test Accuracy 0.6183593749999999
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:11 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(당황한)
+epoch:11 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:11 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:11 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:11 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(실망한)
+epoch:11 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:11 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(분노한)
+epoch:11 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 55%|█████▌    | 11/20 [32:33<26:34, 177.12s/it]epoch:11 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 12 | Batch ID 1 | Loss 0.8783360719680786 | Train Accuracy 0.875
+epoch 12 | Batch ID 201 | Loss 0.32082557678222656 | Train Accuracy 0.8370646766169154
+epoch 12 | Batch ID 401 | Loss 3.562743663787842 | Train Accuracy 0.8530626558603491
+epoch 12 | Batch ID 601 | Loss 0.5915247797966003 | Train Accuracy 0.8513935108153078
+epoch 12 | Batch ID 801 | Loss 0.5370949506759644 | Train Accuracy 0.8398486267166042
+epoch 12 | Batch ID 1001 | Loss 0.000711411761585623 | Train Accuracy 0.8678352897102897
+epoch 12 | Train Accuracy 0.8774181547619048
+epoch 12 | Test Accuracy 0.6929036458333333
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:12 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(당황한)
+epoch:12 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(당황한)
+epoch:12 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:12 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:12 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(실망한)
+epoch:12 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:12 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(분노한)
+epoch:12 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 60%|██████    | 12/20 [35:30<23:37, 177.17s/it]epoch:12 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 13 | Batch ID 1 | Loss 0.6028680801391602 | Train Accuracy 0.90625
+epoch 13 | Batch ID 201 | Loss 0.2557653784751892 | Train Accuracy 0.859375
+epoch 13 | Batch ID 401 | Loss 3.631678581237793 | Train Accuracy 0.8742206982543641
+epoch 13 | Batch ID 601 | Loss 0.6672605872154236 | Train Accuracy 0.8721401830282862
+epoch 13 | Batch ID 801 | Loss 0.31705400347709656 | Train Accuracy 0.8627496878901373
+epoch 13 | Batch ID 1001 | Loss 0.0011636954732239246 | Train Accuracy 0.8863324175824175
+epoch 13 | Train Accuracy 0.8943309294871795
+epoch 13 | Test Accuracy 0.7119140625
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:13 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(당황한)
+epoch:13 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:13 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:13 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:13 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(실망한)
+epoch:13 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:13 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(분노한)
+epoch:13 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 65%|██████▌   | 13/20 [38:27<20:39, 177.08s/it]epoch:13 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 14 | Batch ID 1 | Loss 0.5627398490905762 | Train Accuracy 0.875
+epoch 14 | Batch ID 201 | Loss 0.14485123753547668 | Train Accuracy 0.8729011194029851
+epoch 14 | Batch ID 401 | Loss 3.6195130348205566 | Train Accuracy 0.8873129675810474
+epoch 14 | Batch ID 601 | Loss 0.418955534696579 | Train Accuracy 0.8850093594009983
+epoch 14 | Batch ID 801 | Loss 0.44030997157096863 | Train Accuracy 0.8745708489388264
+epoch 14 | Batch ID 1001 | Loss 0.0005310375127010047 | Train Accuracy 0.8960414585414586
+epoch 14 | Train Accuracy 0.903402586996337
+epoch 14 | Test Accuracy 0.7626953125
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:14 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(슬픈)
+epoch:14 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:14 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:14 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:14 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(실망한)
+epoch:14 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:14 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:14 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 70%|███████   | 14/20 [41:25<17:43, 177.24s/it]epoch:14 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 15 | Batch ID 1 | Loss 0.5633122324943542 | Train Accuracy 0.890625
+epoch 15 | Batch ID 201 | Loss 0.14943167567253113 | Train Accuracy 0.8833177860696517
+epoch 15 | Batch ID 401 | Loss 3.4815659523010254 | Train Accuracy 0.8981842269326683
+epoch 15 | Batch ID 601 | Loss 0.48520365357398987 | Train Accuracy 0.8981645174708819
+epoch 15 | Batch ID 801 | Loss 0.42355066537857056 | Train Accuracy 0.8862554619225967
+epoch 15 | Batch ID 1001 | Loss 0.0005056473892182112 | Train Accuracy 0.9055631868131868
+epoch 15 | Train Accuracy 0.9123311584249084
+epoch 15 | Test Accuracy 0.78515625
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:15 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(부끄러운)
+epoch:15 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:15 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:15 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:15 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(실망한)
+epoch:15 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:15 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:15 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 75%|███████▌  | 15/20 [44:23<14:47, 177.42s/it]epoch:15 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 16 | Batch ID 1 | Loss 0.4650152921676636 | Train Accuracy 0.921875
+epoch 16 | Batch ID 201 | Loss 0.14786332845687866 | Train Accuracy 0.8840951492537313
+epoch 16 | Batch ID 401 | Loss 3.4678003787994385 | Train Accuracy 0.9010676433915212
+epoch 16 | Batch ID 601 | Loss 0.32098257541656494 | Train Accuracy 0.8982425124792013
+epoch 16 | Batch ID 801 | Loss 0.4310935437679291 | Train Accuracy 0.8889474094881398
+epoch 16 | Batch ID 1001 | Loss 0.000505439005792141 | Train Accuracy 0.9074363136863137
+epoch 16 | Train Accuracy 0.9141912774725275
+epoch 16 | Test Accuracy 0.8564453125
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:16 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(부끄러운)
+epoch:16 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:16 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:16 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:16 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(실망한)
+epoch:16 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:16 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:16 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 80%|████████  | 16/20 [47:21<11:50, 177.56s/it]epoch:16 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 17 | Batch ID 1 | Loss 0.5334329605102539 | Train Accuracy 0.875
+epoch 17 | Batch ID 201 | Loss 0.11226426810026169 | Train Accuracy 0.8855721393034826
+epoch 17 | Batch ID 401 | Loss 3.7172372341156006 | Train Accuracy 0.9037562344139651
+epoch 17 | Batch ID 601 | Loss 0.45619532465934753 | Train Accuracy 0.8993084442595674
+epoch 17 | Batch ID 801 | Loss 0.4153718054294586 | Train Accuracy 0.8900202871410736
+epoch 17 | Batch ID 1001 | Loss 0.0007350688683800399 | Train Accuracy 0.9082323926073926
+epoch 17 | Train Accuracy 0.9148923992673993
+epoch 17 | Test Accuracy 0.9034830729166666
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:17 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(외로운)
+epoch:17 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:17 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:17 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:17 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(불안한)
+epoch:17 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:17 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:17 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 85%|████████▌ | 17/20 [50:17<08:51, 177.30s/it]epoch:17 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 18 | Batch ID 1 | Loss 0.5332966446876526 | Train Accuracy 0.875
+epoch 18 | Batch ID 201 | Loss 0.13019609451293945 | Train Accuracy 0.880752487562189
+epoch 18 | Batch ID 401 | Loss 3.6038818359375 | Train Accuracy 0.9027821072319202
+epoch 18 | Batch ID 601 | Loss 0.46020185947418213 | Train Accuracy 0.8977225457570716
+epoch 18 | Batch ID 801 | Loss 0.6862435936927795 | Train Accuracy 0.8816323345817728
+epoch 18 | Batch ID 1001 | Loss 0.0007832076516933739 | Train Accuracy 0.9001155094905094
+epoch 18 | Train Accuracy 0.9071657509157509
+epoch 18 | Test Accuracy 0.9363606770833334
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:18 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(부끄러운)
+epoch:18 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(분노한)
+epoch:18 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:18 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:18 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(불안한)
+epoch:18 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:18 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:18 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 90%|█████████ | 18/20 [53:14<05:54, 177.04s/it]epoch:18 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 19 | Batch ID 1 | Loss 0.5819798707962036 | Train Accuracy 0.890625
+epoch 19 | Batch ID 201 | Loss 0.15240129828453064 | Train Accuracy 0.8700248756218906
+epoch 19 | Batch ID 401 | Loss 3.1257264614105225 | Train Accuracy 0.8953008104738155
+epoch 19 | Batch ID 601 | Loss 0.874308705329895 | Train Accuracy 0.8895850665557404
+epoch 19 | Batch ID 801 | Loss 0.8399521708488464 | Train Accuracy 0.8528401997503121
+epoch 19 | Batch ID 1001 | Loss 0.0013853688724339008 | Train Accuracy 0.8745161088911089
+epoch 19 | Train Accuracy 0.8820097377478843
+epoch 19 | Test Accuracy 0.9581705729166666
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:19 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(부끄러운)
+epoch:19 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(당황한)
+epoch:19 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:19 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(기쁨)
+epoch:19 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(후회되는)
+epoch:19 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:19 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:19 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+ 95%|█████████▌| 19/20 [56:11<02:57, 177.00s/it]epoch:19 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+epoch 20 | Batch ID 1 | Loss 0.7845337390899658 | Train Accuracy 0.78125
+epoch 20 | Batch ID 201 | Loss 0.16747477650642395 | Train Accuracy 0.8583644278606966
+epoch 20 | Batch ID 401 | Loss 3.418637752532959 | Train Accuracy 0.8847023067331671
+epoch 20 | Batch ID 601 | Loss 1.3058949708938599 | Train Accuracy 0.8800436772046589
+epoch 20 | Batch ID 801 | Loss 0.3745896518230438 | Train Accuracy 0.8242821473158551
+epoch 20 | Batch ID 1001 | Loss 0.03402130678296089 | Train Accuracy 0.8562843406593407
+epoch 20 | Train Accuracy 0.8647792132436529
+epoch 20 | Test Accuracy 0.9679361979166666
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BatchSize[64] | Epochs[20] | LR[3e-05] | Inference 결과 예시
+epoch:20 | user(남들 보는 앞에서 교수님한테 엄청 깨졌어.) | Predicted Sentiment(부끄러운)
+epoch:20 | user(하루 종일 일에 쫓기는 기분이야.) | Predicted Sentiment(당황한)
+epoch:20 | user(친구랑 싸워서 아직도 분이 안 풀려.) | Predicted Sentiment(슬픈)
+epoch:20 | user(내 계획은 이게 아니었는데...) | Predicted Sentiment(편안한)
+epoch:20 | user(이번 발표는 준비를 제대로 못 해서 걱정이다.) | Predicted Sentiment(불안한)
+epoch:20 | user(그래도 생각보다는 성적이 괜찮게 나왔어.) | Predicted Sentiment(기쁨)
+epoch:20 | user(헤어진 전 애인이 보고싶다.) | Predicted Sentiment(슬픈)
+epoch:20 | user(부모님께 드릴 선물 사러 가는 길인데 신나.) | Predicted Sentiment(기쁨)
+100%|██████████| 20/20 [59:09<00:00, 177.26s/it]100%|██████████| 20/20 [59:09<00:00, 177.45s/it]
+epoch:20 | user(애인에게 받은 선물이 너무 맘에 들어.) | Predicted Sentiment(기쁨)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

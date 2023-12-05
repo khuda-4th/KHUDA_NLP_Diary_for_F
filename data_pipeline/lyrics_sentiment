@@ -1,0 +1,54 @@
+df = pd.read_excel('/content/drive/MyDrive/song_info/song_info_data.xlsx')
+
+df = df[3001:]
+
+df = df.fillna(value=0) # Nan 값 -> 0으로 처리
+
+def isEnglishOrKorean(input_s): # 영어 가사 0으로 처리
+    k_count = 0
+    e_count = 0
+    for c in input_s:
+        if ord('가') <= ord(c) <= ord('힣'):
+            k_count += 1
+        elif ord('a') <= ord(c.lower()) <= ord('z'):
+            e_count += 1
+    return "한국어" if k_count > e_count else "영어"
+
+pd.set_option('mode.chained_assignment',  None) # 경고를 끈다
+
+for i in range(0,len(df)):
+  for j in range(3,len(df.columns)):
+
+    if df.iloc[i,j] != 0:
+
+      if isEnglishOrKorean(df.iloc[i,j]) == "영어":
+        df.iloc[i,j] = 0
+
+sentimented_list = []     # [['곡명', '가수', '감사하는 수치', '당황한 수치', ... , '회의적인 수치'],
+                          #  ['곡명', '가수', '감사하는 수치', '당황한 수치', ... , '회의적인 수치'],
+                          #  ['곡명', '가수', '감사하는 수치', '당황한 수치', ... , '회의적인 수치'], ... ]
+count = 3000
+
+for i in tqdm(range(100,len(df))):
+
+  count += 1
+  i += 3001
+
+  tmp_list = []     # ['곡명', '가수', '감사하는 수치', '당황한 수치', ... , '회의적인 수치']
+
+  tmp_list.append(df.loc[i][0])      # 노래 제목 추가
+  tmp_list.append(df.loc[i][1])      # 노래 가수 추가
+
+  tmp_list_2 = [0 for i in range(15)]     # [0,0, ..., 0] : 15개의 감정 횟수를 위한 리스트
+
+  tmp_list += tmp_list_2     # ['곡명', '가수', 0, 0, ... , 0 ]
+
+  for j in range(2,len(df.columns)-1):
+
+    if df.loc[i][j] != 0:
+
+      pred = predict_v2(df.loc[i][j])
+
+      tmp_list[pred+2] += 1
+
+  sentimented_list.append(tmp_list)

@@ -3,7 +3,7 @@
 ## Docker Environment
 - Need to set Port Configuration as **```-p 8501:8501 -p 8502:8502```** during Docker Run Command
 - All the Requirements(libraries) for running app_st.py(streamlit app for Friday) freezed in **requirements.txt**
-  - in order to install and use kobert-tokenizer from skt/koBERT-base-1, we had to run *```pip install git+https://git@github.com/SKTBrain/KoBERT.git@master```** separately.
+  - in order to install and use kobert-tokenizer from skt/koBERT-base-1, we had to run **```pip install git+https://git@github.com/SKTBrain/KoBERT.git@master```** separately.
 - Tested in Docker Container environment running on a GPU server with 2 RTX3090 GPUs, while connected through SSH.
 
 ## koGPT2
@@ -29,3 +29,4 @@
 ## Streamlit
 - Provides interactive chat environment for the fine-tuned GPT and BERT models to be utilized.
 - Incorporates codes for conducting cosine-based music recommendation (def recommend_song)
+- run with command **```streamlit run app_st.py```**

@@ -1,3 +1,5 @@
+# Friday App
+
 ## Docker Environment
 - Need to set Port Configuration as **[-p 8501:8501]** during Docker Run Command
 - All the Requirements(libraries) for running app_st.py(streamlit app for Friday) freezed in **requirements.txt**
